@@ -26,7 +26,7 @@ function total(i) {
 
 BEGIN {
 	if (ipv6) {
-		iptNF	= 8
+		iptNF	= 9
 		iptKey	= "ip6tables"
 	} else {
 		iptNF	= 9
